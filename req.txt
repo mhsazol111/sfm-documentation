@@ -1,0 +1,44 @@
+Hello,
+
+Nothing on hand, we have a "home made" wiki for that (but we don't share it as it contains connection data to the machines).
+
+Then it's a matter of detailed technical and functional specification documentation.
+
+So the technical part has to describe in an exhaustive and as precise way as possible:
+- The technical environment used (core, plugins)
+- The technical interactions between plugins if there are any
+- The specific developments carried out with the location of files and tables impacted in databases and the impact of each parameter on the results.
+
+And the functional part (in an exhaustive way too) :
+- Which functionalities have been requested?
+- How are they covered (link with the specific developments carried out)?
+- Troubleshooting of specific developments
+- Functionality workflows (ideally BPMN diagram)
+
+An example of what I produced in another life just on the summary:
+1. Project framework
+a. Summary
+b. Background
+c. Issues/Objectives
+2. Graphic design
+3. Functional specifications
+a. Scope
+i. Front office
+ii. Back office
+b. Tree structure
+c. Overview of contents
+4. Technical specifications
+a. Technical choices (core/version/plugin/emailing/...)
+b. Specific developments (input/process/output)
+c. Third Party Services
+d. Maintenance and evolutions
+e. Troublshoot
+
+Everything should be as detailed as possible, not everything should fit on one page.
+
+Basically, the objectives of this type of document are :
+- Anyone should be able to take over the project without any special help and simply by reading the document.
+- Technical-functional basis for drawing up a unit (technical) and business (functional) test plan
+- Answer the questions: "What do we want to do? "and "How do we do it?
+
+* Translated with www.deepl.com/Translator (free version) *

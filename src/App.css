@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+#sidebar a {
+  display: block;
+  padding: 5px 0;
+  color: #333333;
+}
+#sidebar a.active,
+#sidebar a:hover {
+  color: rgb(56, 211, 236);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#content-area h1 {
+  position: relative;
+  display: table;
+  font-weight: bold;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#content-area h1::before {
+  position: absolute;
+  content: '';
+  bottom: 5%;
+  left: 0px;
+  width: 80px;
+  height: 3px;
+  background: rgb(56, 211, 236);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#content-area h2 {
+  font-weight: 500;
+  padding-bottom: 15px;
 }
-
-.App-link {
-  color: #61dafb;
+#content-area h3 {
+  font-weight: 500;
+  padding-bottom: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#content-area p,
+#content-area ul {
+  padding-bottom: 10px;
+}
+#content-area ul {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+#content-area ul li {
+  margin-bottom: 7px;
+}
+.image {
+  box-shadow: 0 0 20px -1px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 0;
+  background-color: #fff;
 }
