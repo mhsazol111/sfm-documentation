@@ -35,6 +35,18 @@ const Sidebar = () => {
             Database Structure
           </NavLink>
         </li>
+        <li>
+          <NavLink exact to="/feature-updates">
+            Feature Updates
+          </NavLink>
+          <ul>
+            <li>
+              <NavLink exact to="/feature-updates/december">
+                December Updates
+              </NavLink>
+            </li>
+          </ul>
+        </li>
       </ul>
     </div>
   );

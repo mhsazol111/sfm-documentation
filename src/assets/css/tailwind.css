@@ -17,6 +17,7 @@
   }
   a {
     color: rgb(56, 211, 236);
+    text-decoration: underline;
   }
   code {
     background-color: #fff;

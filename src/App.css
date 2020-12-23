@@ -1,7 +1,11 @@
+#sidebar ul ul {
+  margin-left: 20px;
+}
 #sidebar a {
   display: block;
   padding: 5px 0;
   color: #333333;
+  text-decoration: none;
 }
 #sidebar a.active,
 #sidebar a:hover {

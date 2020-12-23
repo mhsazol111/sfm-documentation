@@ -3,6 +3,7 @@ import ModalImage from 'react-modal-image';
 
 import WpCoreTables from '../assets/images/wp-core-tables.png';
 import WpDBStructure from '../assets/images/Wordpress_database_structure.png';
+import WpAdditionalDB from '../assets/images/additional-tables.png';
 
 const DatabaseStructure = () => {
   return (
@@ -95,6 +96,16 @@ const DatabaseStructure = () => {
                 This table contains information about custom links added to your site. It has been deprecated and is not used any longer. There are a
                 few older plugins that still make use of it but usually, it is an empty table.
               </p>
+            </li>
+            <li>
+              <strong>Other Tables</strong>
+              <p>
+                Most of the additional tables are created and managed by multiple plugins. Some of them are shown below. Example:
+                wp_trp_original_strings
+              </p>
+              <div className="image" style={{ maxWidth: '350px' }}>
+                <ModalImage small={WpAdditionalDB} large={WpAdditionalDB} alt="WpAdditionalDB" />
+              </div>
             </li>
           </ul>
           <li>

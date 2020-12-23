@@ -7,6 +7,8 @@ import Themes from '../pages/Themes';
 import Plugins from '../pages/Plugins';
 import FileStructure from '../pages/FileStructure';
 import DataBaseStructure from '../pages/DatabaseStructure';
+import FeatureUpdates from '../pages/FeatureUpdates';
+import FeatureUpdatesDecember from '../pages/FeatureUpdatesDecember';
 
 const PageRoutes = () => {
   return (
@@ -33,6 +35,13 @@ const PageRoutes = () => {
 
       <Route exact path="/database-structure">
         <DataBaseStructure />
+      </Route>
+
+      <Route exact path="/feature-updates">
+        <FeatureUpdates />
+      </Route>
+      <Route exact path="/feature-updates/december">
+        <FeatureUpdatesDecember />
       </Route>
 
       <Route path="/not-found">
