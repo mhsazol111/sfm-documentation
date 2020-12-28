@@ -36,6 +36,35 @@ const Sidebar = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink exact to="/how-it-works">
+            How it Works
+          </NavLink>
+          <ul>
+            <li>
+              <NavLink exact to="/how-it-works/freelancer">
+                Freelancer
+              </NavLink>
+              <ul>
+                <li>
+                  <NavLink exact to="/how-it-works/freelancer/sign-up">
+                    Sign Up
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/freelancer/waiting-for-approval">
+                    Waiting for Approval
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/freelancer/update-profile">
+                    Updating Profile
+                  </NavLink>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
           <NavLink exact to="/feature-updates">
             Feature Updates
           </NavLink>

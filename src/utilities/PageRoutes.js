@@ -9,6 +9,11 @@ import FileStructure from '../pages/FileStructure';
 import DataBaseStructure from '../pages/DatabaseStructure';
 import FeatureUpdates from '../pages/FeatureUpdates';
 import FeatureUpdatesDecember from '../pages/FeatureUpdatesDecember';
+import HowItWorks from '../pages/HowItWorks';
+import Freelancer from '../pages/Freelancer/Freelancer';
+import FreeLancerSignUp from '../pages/Freelancer/SignUp';
+import FreeLancerApproval from '../pages/Freelancer/Approval';
+import FreelancerUpdateProfile from '../pages/Freelancer/UpdateProfile';
 
 const PageRoutes = () => {
   return (
@@ -42,6 +47,22 @@ const PageRoutes = () => {
       </Route>
       <Route exact path="/feature-updates/december">
         <FeatureUpdatesDecember />
+      </Route>
+
+      <Route exact path="/how-it-works">
+        <HowItWorks />
+      </Route>
+      <Route exact path="/how-it-works/freelancer">
+        <Freelancer />
+      </Route>
+      <Route exact path="/how-it-works/freelancer/sign-up">
+        <FreeLancerSignUp />
+      </Route>
+      <Route exact path="/how-it-works/freelancer/waiting-for-approval">
+        <FreeLancerApproval />
+      </Route>
+      <Route exact path="/how-it-works/freelancer/update-profile">
+        <FreelancerUpdateProfile />
       </Route>
 
       <Route path="/not-found">
