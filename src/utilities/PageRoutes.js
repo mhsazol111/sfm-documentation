@@ -14,6 +14,20 @@ import Freelancer from '../pages/Freelancer/Freelancer';
 import FreeLancerSignUp from '../pages/Freelancer/SignUp';
 import FreeLancerApproval from '../pages/Freelancer/Approval';
 import FreelancerUpdateProfile from '../pages/Freelancer/UpdateProfile';
+import FreelancerBrowseProjects from '../pages/Freelancer/BrowseProjects';
+import Dashboard from '../pages/Freelancer/Dashboard';
+import ProjectDetails from '../pages/Freelancer/ProjectDetails';
+import MyProjects from '../pages/Freelancer/MyProjects';
+import Portfolio from '../pages/Freelancer/Portfolio';
+import Notifications from '../pages/Freelancer/Notifications';
+import HelpSupport from '../pages/Freelancer/HelpSupport';
+import EmpSignUp from '../pages/Employer/SignUp';
+import EmpApproval from '../pages/Employer/Approval';
+import EmpUpdateProfile from '../pages/Employer/UpdateProfile';
+import FrSubmitProposal from '../pages/Freelancer/SubmitProposal';
+import Employer from '../pages/Employer/Employer';
+import EmpDashboard from '../pages/Employer/Dashboard';
+import BrowseFreelancers from '../pages/Employer/BrowseFreelancers';
 
 const PageRoutes = () => {
   return (
@@ -52,6 +66,7 @@ const PageRoutes = () => {
       <Route exact path="/how-it-works">
         <HowItWorks />
       </Route>
+
       <Route exact path="/how-it-works/freelancer">
         <Freelancer />
       </Route>
@@ -63,6 +78,64 @@ const PageRoutes = () => {
       </Route>
       <Route exact path="/how-it-works/freelancer/update-profile">
         <FreelancerUpdateProfile />
+      </Route>
+      <Route exact path="/how-it-works/freelancer/dashboard">
+        <Dashboard />
+      </Route>
+      <Route exact path="/how-it-works/freelancer/browse-projects">
+        <FreelancerBrowseProjects />
+      </Route>
+      <Route exact path="/how-it-works/freelancer/project-details">
+        <ProjectDetails />
+      </Route>
+      <Route exact path="/how-it-works/freelancer/my-projects">
+        <MyProjects />
+      </Route>
+      <Route exact path="/how-it-works/freelancer/submit-proposal">
+        <FrSubmitProposal />
+      </Route>
+      <Route exact path="/how-it-works/freelancer/portfolio">
+        <Portfolio />
+      </Route>
+      <Route exact path="/how-it-works/freelancer/notification">
+        <Notifications />
+      </Route>
+      <Route exact path="/how-it-works/freelancer/help-support">
+        <HelpSupport />
+      </Route>
+
+      <Route exact path="/how-it-works/employer">
+        <Employer />
+      </Route>
+      <Route exact path="/how-it-works/employer/sign-up">
+        <EmpSignUp />
+      </Route>
+      <Route exact path="/how-it-works/employer/waiting-for-approval">
+        <EmpApproval />
+      </Route>
+      <Route exact path="/how-it-works/employer/update-profile">
+        <EmpUpdateProfile />
+      </Route>
+      <Route exact path="/how-it-works/employer/dashboard">
+        <EmpDashboard />
+      </Route>
+      <Route exact path="/how-it-works/employer/browse-freelancers">
+        <BrowseFreelancers />
+      </Route>
+      <Route exact path="/how-it-works/employer/project-details">
+        <ProjectDetails />
+      </Route>
+      <Route exact path="/how-it-works/employer/my-projects">
+        <MyProjects />
+      </Route>
+      <Route exact path="/how-it-works/employer/portfolio">
+        <Portfolio />
+      </Route>
+      <Route exact path="/how-it-works/employer/notification">
+        <Notifications />
+      </Route>
+      <Route exact path="/how-it-works/employer/help-support">
+        <HelpSupport />
       </Route>
 
       <Route path="/not-found">

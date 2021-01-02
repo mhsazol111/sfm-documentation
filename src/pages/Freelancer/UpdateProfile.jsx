@@ -46,7 +46,7 @@ const FreelancerUpdateProfile = () => {
               <p>
                 You need to select the categories you can work on. There are total 14 categories to select from. Please, make sure to select only
                 those categories you're expert. You are allowed to select maximum of 3 categories. Just a note: admins will review your profile again
-                after every profile update. If they think your profile categories are not relevant they might hold your profile.
+                after profile update. If they think your profile categories are not relevant they might hold your profile.
               </p>
               <div className="image mr-4" style={{ maxWidth: '350px' }}>
                 <ModalImage small={FreelancerCategory} large={FreelancerCategory} alt="FreelancerCategory" />
@@ -57,13 +57,14 @@ const FreelancerUpdateProfile = () => {
               Specific skill:
               <p>
                 Here you can select your skills you are expert on. Make sure to select only skills relate to your expertise. Just a note: admins will
-                review your profile again after every profile update. If they think your profile categories are not relevant they might hold your
-                profile.
+                review your profile again after profile update. If they think your profile skills are not relevant they might hold your profile.
               </p>
               <div className="image mr-4" style={{ maxWidth: '350px' }}>
                 <ModalImage small={FreelancerSkill} large={FreelancerSkill} alt="FreelancerSkill" />
               </div>
             </li>
+
+            <li>Once you've updated the profile you can access everything.</li>
           </ul>
         </li>
       </ul>

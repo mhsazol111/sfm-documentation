@@ -60,6 +60,104 @@ const Sidebar = () => {
                     Updating Profile
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink exact to="/how-it-works/freelancer/dashboard">
+                    Dashboard First Look
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/freelancer/browse-projects">
+                    Browse Projects
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/freelancer/project-details">
+                    Project Details
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/freelancer/submit-proposal">
+                    Submit Proposal
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/freelancer/my-projects">
+                    My Projects
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/freelancer/portfolio">
+                    Portfolios & Messages
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/freelancer/notification">
+                    Notification Settings
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/freelancer/help-support">
+                    Help and Support
+                  </NavLink>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <NavLink exact to="/how-it-works/employer">
+                Employer
+              </NavLink>
+              <ul>
+                <li>
+                  <NavLink exact to="/how-it-works/employer/sign-up">
+                    Sign Up
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/employer/waiting-for-approval">
+                    Waiting for Approval
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/employer/update-profile">
+                    Updating Profile
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/employer/dashboard">
+                    Dashboard First Look
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/employer/browse-freelancers">
+                    Browse Freelancers
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/employer/project-details">
+                    Project Details
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/employer/my-projects">
+                    My Projects
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/employer/portfolio">
+                    Portfolios & Messages
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/employer/notification">
+                    Notification Settings
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/employer/help-support">
+                    Help and Support
+                  </NavLink>
+                </li>
               </ul>
             </li>
           </ul>

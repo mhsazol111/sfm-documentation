@@ -16,6 +16,27 @@ const Freelancer = () => {
         <li>
           <Link to="/how-it-works/freelancer/update-profile">Updating Profile</Link>
         </li>
+        <li>
+          <Link to="/how-it-works/freelancer/dashboard">Dashboard First Look</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/freelancer/browse-projects">Browse Projects</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/freelancer/project-details">Project Details</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/freelancer/my-projects">My Projects</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/freelancer/portfolio">Portfolios & Messages</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/freelancer/notification">Notification Settings</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/freelancer/help-support">Help and Support</Link>
+        </li>
       </ul>
     </div>
   );

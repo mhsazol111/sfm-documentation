@@ -13,7 +13,7 @@ const FreeLancerSignUp = () => {
         <li>
           <p>
             In order to become a freelancer you have to sign up for a freelancer account by visiting{' '}
-            <a href="https://www.switzerland-freelance.ch/register/?role=freelancer" target="_blank">
+            <a href="https://www.switzerland-freelance.ch/register/?role=freelancer" target="_blank" rel="noreferrer">
               here
             </a>{' '}
             or visit the website, go to "Sign Up" and then select the "Sign Up" button.
