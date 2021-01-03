@@ -134,8 +134,8 @@ const Sidebar = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink exact to="/how-it-works/employer/project-details">
-                    Project Details
+                  <NavLink exact to="/how-it-works/employer/freelancer-details">
+                    Freelancer Details
                   </NavLink>
                 </li>
                 <li>
@@ -144,8 +144,8 @@ const Sidebar = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink exact to="/how-it-works/employer/portfolio">
-                    Portfolios & Messages
+                  <NavLink exact to="/how-it-works/employer/messages">
+                    Messages
                   </NavLink>
                 </li>
                 <li>
@@ -160,8 +160,47 @@ const Sidebar = () => {
                 </li>
               </ul>
             </li>
+
+            <li>
+              <NavLink exact to="/how-it-works/admin">
+                Admin
+              </NavLink>
+              <ul>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/pending-users">
+                    Pending Users Management
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/projects">
+                    Managing Projects
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/project-categories">
+                    Managing Project Categories
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/project-skill">
+                    Managing Project Skills
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/project-country">
+                    Managing Country list
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/private-message">
+                    Private Messages
+                  </NavLink>
+                </li>
+              </ul>
+            </li>
           </ul>
         </li>
+
         <li>
           <NavLink exact to="/feature-updates">
             Feature Updates

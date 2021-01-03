@@ -23,13 +23,13 @@ const Employer = () => {
           <Link to="/how-it-works/employer/browse-freelancers">Browse Freelancers</Link>
         </li>
         <li>
-          <Link to="/how-it-works/employer/project-details">Project Details</Link>
+          <Link to="/how-it-works/employer/freelancer-details">Freelancer Details</Link>
         </li>
         <li>
           <Link to="/how-it-works/employer/my-projects">My Projects</Link>
         </li>
         <li>
-          <Link to="/how-it-works/employer/portfolio">Portfolios & Messages</Link>
+          <Link to="/how-it-works/employer/portfolio">Messages</Link>
         </li>
         <li>
           <Link to="/how-it-works/employer/notification">Notification Settings</Link>

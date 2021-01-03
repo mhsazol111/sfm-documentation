@@ -13,13 +13,13 @@ const HowItWorks = () => {
 
       <ul>
         <li>
+          <Link to="/how-it-works/admin">Admin</Link>
+        </li>
+        <li>
           <Link to="/how-it-works/freelancer">Freelancer</Link>
         </li>
         <li>
           <Link to="/how-it-works/employer">Employer</Link>
-        </li>
-        <li>
-          <Link to="/how-it-works/admin">Admin</Link>
         </li>
       </ul>
     </div>

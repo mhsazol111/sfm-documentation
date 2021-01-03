@@ -9,7 +9,7 @@ import byCountry from '../../assets/images/bf-country.png';
 const BrowseFreelancers = () => {
   return (
     <div className="content">
-      <h1>Browse Projects</h1>
+      <h1>Browse Freelancer</h1>
 
       <ul>
         <li>

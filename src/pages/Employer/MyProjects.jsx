@@ -1,9 +1,9 @@
 import React from 'react';
 import ModalImage from 'react-modal-image';
 
-import MyProjectsImg from '../../assets/images/my-projects.png';
+import MyProjectsImg from '../../assets/images/emp-my-projects.png';
 
-const MyProjects = () => {
+const EmpMyProjects = () => {
   return (
     <div className="content">
       <h1>My Projects</h1>
@@ -14,30 +14,33 @@ const MyProjects = () => {
         </li>
         <li>
           <p>
-            <strong>Pending projects:</strong> These are the projects that you have submitted proposal but haven't received any confirmation about
-            that from the project employer.
+            <strong>Pending projects:</strong> These are the projects that you have posted but haven't assigned to any freelancers yet.
           </p>
         </li>
         <li>
           <p>
-            <strong>Ongoing Projects:</strong> Projects that you are currently working on. Projects that you've won through bidding or client
-            invitation.
+            <strong>Published Projects:</strong> These are the projects that you've created and admin approved them.
           </p>
         </li>
         <li>
           <p>
-            <strong>Completed projects:</strong> These are the projects that you have been worked on and I completed and marked completed by the
-            project employer
+            <strong>Ongoing projects:</strong> These are the projects that you have posted and someone is working on it to complete.
           </p>
         </li>
         <li>
           <p>
-            <strong>Declined projects:</strong> These are the projects that the client declined or you couldn't completed them.
+            <strong>Completed projects:</strong> The projects you've assigned to someone and they completed the tasks successfully.
           </p>
         </li>
         <li>
           <p>
-            <strong>Cancelled projects:</strong> These are the projects that you declined or you couldn't completed them.
+            <strong>Archived projects:</strong> These projects are no longer visible to outside user/freelancer except you. You can manually set the
+            projects to published again from edit project option.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Cancelled projects:</strong> These are the projects that you declined or someone couldn't completed them.
           </p>
         </li>
       </ul>
@@ -50,4 +53,4 @@ const MyProjects = () => {
   );
 };
 
-export default MyProjects;
+export default EmpMyProjects;

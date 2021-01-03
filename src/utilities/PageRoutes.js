@@ -28,6 +28,16 @@ import FrSubmitProposal from '../pages/Freelancer/SubmitProposal';
 import Employer from '../pages/Employer/Employer';
 import EmpDashboard from '../pages/Employer/Dashboard';
 import BrowseFreelancers from '../pages/Employer/BrowseFreelancers';
+import FreelancerDetails from '../pages/Employer/FreelancerDetails';
+import EmpMyProjects from '../pages/Employer/MyProjects';
+import EmpMessages from '../pages/Employer/Messages';
+import Admin from '../pages/Admin/Admin';
+import PendingUsers from '../pages/Admin/PendingUsers';
+import ManagingProjects from '../pages/Admin/ProjectManagement';
+import ManagingProjectCats from '../pages/Admin/ManageProjectCats';
+import ManagingProjectSkills from '../pages/Admin/ManageProjectSkills';
+import ManagingProjectCountry from '../pages/Admin/ManageProjectCountry';
+import PrivateMessaging from '../pages/Admin/PrivateMessages';
 
 const PageRoutes = () => {
   return (
@@ -65,6 +75,28 @@ const PageRoutes = () => {
 
       <Route exact path="/how-it-works">
         <HowItWorks />
+      </Route>
+
+      <Route exact path="/how-it-works/admin">
+        <Admin />
+      </Route>
+      <Route exact path="/how-it-works/admin/pending-users">
+        <PendingUsers />
+      </Route>
+      <Route exact path="/how-it-works/admin/projects">
+        <ManagingProjects />
+      </Route>
+      <Route exact path="/how-it-works/admin/project-categories">
+        <ManagingProjectCats />
+      </Route>
+      <Route exact path="/how-it-works/admin/project-skill">
+        <ManagingProjectSkills />
+      </Route>
+      <Route exact path="/how-it-works/admin/project-country">
+        <ManagingProjectCountry />
+      </Route>
+      <Route exact path="/how-it-works/admin/private-message">
+        <PrivateMessaging />
       </Route>
 
       <Route exact path="/how-it-works/freelancer">
@@ -122,14 +154,14 @@ const PageRoutes = () => {
       <Route exact path="/how-it-works/employer/browse-freelancers">
         <BrowseFreelancers />
       </Route>
-      <Route exact path="/how-it-works/employer/project-details">
-        <ProjectDetails />
+      <Route exact path="/how-it-works/employer/freelancer-details">
+        <FreelancerDetails />
       </Route>
       <Route exact path="/how-it-works/employer/my-projects">
-        <MyProjects />
+        <EmpMyProjects />
       </Route>
-      <Route exact path="/how-it-works/employer/portfolio">
-        <Portfolio />
+      <Route exact path="/how-it-works/employer/messages">
+        <EmpMessages />
       </Route>
       <Route exact path="/how-it-works/employer/notification">
         <Notifications />
