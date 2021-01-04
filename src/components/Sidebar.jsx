@@ -196,6 +196,51 @@ const Sidebar = () => {
                     Private Messages
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/portfolios">
+                    Freelancer's Portfolio
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/notification">
+                    Notifications
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/pages">
+                    Manage Pages
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/contact-forms">
+                    contact Forms
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/profiles">
+                    Extended Profiles
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/media">
+                    Media Library
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/bids">
+                    Proposals / Bids
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/bids">
+                    Proposals / Bids
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink exact to="/how-it-works/admin/translation">
+                    Translation Management
+                  </NavLink>
+                </li>
               </ul>
             </li>
           </ul>

@@ -38,6 +38,14 @@ import ManagingProjectCats from '../pages/Admin/ManageProjectCats';
 import ManagingProjectSkills from '../pages/Admin/ManageProjectSkills';
 import ManagingProjectCountry from '../pages/Admin/ManageProjectCountry';
 import PrivateMessaging from '../pages/Admin/PrivateMessages';
+import FreePortfolios from '../pages/Admin/Portfolios';
+import AdminNotifications from '../pages/Admin/Notifications';
+import ManagePages from '../pages/Admin/Pages';
+import ContactForms from '../pages/Admin/ContactForm';
+import Profiles from '../pages/Admin/Profiles';
+import Media from '../pages/Admin/Media';
+import Bids from '../pages/Admin/Bids';
+import Translation from '../pages/Admin/Translation';
 
 const PageRoutes = () => {
   return (
@@ -97,6 +105,30 @@ const PageRoutes = () => {
       </Route>
       <Route exact path="/how-it-works/admin/private-message">
         <PrivateMessaging />
+      </Route>
+      <Route exact path="/how-it-works/admin/portfolios">
+        <FreePortfolios />
+      </Route>
+      <Route exact path="/how-it-works/admin/notification">
+        <AdminNotifications />
+      </Route>
+      <Route exact path="/how-it-works/admin/pages">
+        <ManagePages />
+      </Route>
+      <Route exact path="/how-it-works/admin/contact-forms">
+        <ContactForms />
+      </Route>
+      <Route exact path="/how-it-works/admin/profiles">
+        <Profiles />
+      </Route>
+      <Route exact path="/how-it-works/admin/media">
+        <Media />
+      </Route>
+      <Route exact path="/how-it-works/admin/bids">
+        <Bids />
+      </Route>
+      <Route exact path="/how-it-works/admin/translation">
+        <Translation />
       </Route>
 
       <Route exact path="/how-it-works/freelancer">

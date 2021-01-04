@@ -25,6 +25,33 @@ const Admin = () => {
         <li>
           <Link to="/how-it-works/admin/private-message">Private Messages</Link>
         </li>
+        <li>
+          <Link to="/how-it-works/admin/portfolios">Freelancer's Portfolio</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/admin/notification">Notifications</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/admin/pages">Manage Pages</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/admin/contact-forms">contact Forms</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/admin/profiles">Extended Profiles</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/admin/media">Media Library</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/admin/bids">Proposals / Bids</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/admin/bids">Proposals / Bids</Link>
+        </li>
+        <li>
+          <Link to="/how-it-works/admin/translation">Translation Management</Link>
+        </li>
       </ul>
     </div>
   );
